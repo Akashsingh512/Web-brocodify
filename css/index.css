@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 
 
+
 * {
   margin: 0;
   padding: 0;
@@ -53,7 +54,9 @@ body {
 }
 .header-info{
   margin-top: -43px;
+
 }
+
 
 .headerpara{
   margin-top: -51px;
@@ -142,9 +145,11 @@ hr {
 }
 
 .container {
-  width: 29%;
+  width: 20%;
   max-width: 800px;
   margin: 31px 460px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(214, 231, 237);
   padding: 30px;
   display: grid;
@@ -158,6 +163,9 @@ hr {
   text-decoration: none;
 }
 
+
+
+
 .home,
 .chat,
 .video,
@@ -167,15 +175,113 @@ hr {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #007bff;
-  color: #fff;
-  margin-bottom: 12px;
+  color: #ffffff;
+  transition: width 1s ease;
+
+  
+}
+  
+  
+    .home:hover {
+        background-color: #289d44;
+        animation: bounce .5s infinite;
+        animation-delay: .2s;
+
+      }
+
+      @keyframes bounce {
+        0%, 100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-10px);
+        }
+      } 
+.chat:hover {
+  background-color: #289d44;
+  animation: bounce .5s infinite;
+  animation-delay: .2s;
+
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
 
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.video:hover {
+  background-color: #289d44;
+  animation: bounce .5s infinite;
+  animation-delay: .2s;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.blog:hover {
+  background-color: #289d44;
+  animation: bounce .5s infinite;
+  animation-delay: .2s;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.tag:hover {
+  background-color: #289d44;
+  animation: bounce .5s infinite;
+  animation-delay: .2s;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.idcard:hover {
+  background-color: #289d44;
+  animation: bounce .5s infinite;
+  animation-delay: .2s;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
 .symbol{
   
   display: block;
@@ -354,6 +460,15 @@ hr {
 
 .readytoget .readybuttons .signup-btn {
   background-color: #28a745;
+}
+.readybuttons .login-btn:hover{
+  background-color: #59ad66;
+  animation: normal;
+}
+
+.readybuttons .signup-btn:hover{
+  background-color: lightblue;
+  animation: normal;
 }
 
 .readytoget h2 {
