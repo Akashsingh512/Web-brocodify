@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+@media only screen and (max-width: 400px){
+  .card{
+
+    width: 90%;
+    height: 90%;
+
+  }
+
+}
+@media only screen and (max-width: 800px){
+  .card{
+
+    width: 90%;
+    height: 90%;
+
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  
+}
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    padding: 20px;
+    background: lightblue;
+    display: flex;
+    justify-content: flex-end; /* align the text into right*/
+    align-items: center;
+  }
+  /* Style for the navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the logo image */
+.navbar img {
+  margin-left: -1000px;
+}
+
+/* Style for the navigation links */
+.navbar a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style for the contact button */
+.btn {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Style for the contact button on hover */
+.btn:hover {
+  background-color: #555;
+}
+.Aboutus p {
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 54px;
+    margin-right: 0px;
+    padding: 31px;
+  }
+
+/* Style for the secondary image */
+header img {
+  margin-left: 8px;
+}
+  .header ul {
+    list-style-type:none;
+    display: flex;
+  }
+  
+  .header ul li {
+    margin-right: 10px;
+  }
+  
+  .header ul li a {
+    text-decoration: none;
+  color:#111;
+  .import h2 {
+    font-size: 30px;
+    color: #2d2d2d;
+    margin-top: -37px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-style: italic;
+  }
+  }
+  .Aboutus {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .Aboutus .learncoding{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .ask{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .video{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .answer{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .teaching{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .chatbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .Aboutus .learncoding img{
+    width: 110px;
+    margin-top: 25px;
+    margin-right: 879px
+  }
+  .Aboutus .learncoding p{
+    margin-top: -85px;
+    margin-left: 37px;
+    font-size: 20px;
+    
+  }
+  .Aboutus .ask img{
+    width: 90px;
+  }
+  .Aboutus .ask p{
+    margin-top: 111px;
+    margin-left: 37px;
+    font-size: 20px
+  }
+  .Aboutus .video img{
+    width: 90px;
+  }
+  .Aboutus .answer img{
+    width: 90px;
+  }
+  .Aboutus .teaching img{
+    width: 90px;
+  }
+  .Aboutus .chatbox img {
+    width: 90px;
+  }
+  .Aboutus .learncoding img{
+    width: 110px;
+    margin-top: 25px;
+    margin-right: 689px
+  }
+  .Aboutus .learncoding p{
+    margin-top: -85px;
+    margin-left: 37px;
+    font-size: 20px;
+    
+  }
+  .Aboutus .ask img{
+    width: 128px;
+      margin-top: -198px;
+      margin-right: 18px;
+  }
+  .Aboutus .ask p{
+    margin-top: 122px;
+    margin-left: 0px;
+    font-size: 20px
+  }
+  .Aboutus .videochat img{
+    width: 165px;
+    margin-top: 5px;
+    margin-right: 715px
+  }
+  .Aboutus .videochat p{
+    margin-top: -109px;
+      margin-left: 88px;
+    font-size: 20px;
+    
+  }
+  .Aboutus .answer img{
+    width: 128px;
+    margin-top: 89px;
+    margin-right: -844px;
+  }
+  .Aboutus .answer p{
+    margin-top: -92px;
+      margin-left: -143px;
+      font-size: 18px;
+  }
+  .Aboutus .teaching img{
+    width: 165px;
+    margin-top: 92px;
+    margin-right: 879px
+  }
+  .Aboutus .teaching p{
+    margin-top: -73px;
+      margin-left: 200px;
+    font-size: 19px;
+  }
+  .Aboutus .chatbox img {
+    width: 128px;
+    margin-top: 40px;
+    margin-right: -844px;
+  }
+  .Aboutus .chatbox p{
+    margin-top: -139px;
+      margin-left: -143px;
+      font-size: 20px;
+  }
+  .Aboutus hr{
+    margin-top: 50px;
+    border: 0;
+    border-top: 3px solid lightblue;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+  }
+  
+  .footer h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-icon {
+    text-align: right;
+    margin-top: 30px;
+  }
+  
+  .social-icon a {
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: lightblue;
+    padding: 20px;
+    color: #000;
+  }
+  
+  
